@@ -1,12 +1,13 @@
 # Rec_Facial
 Um trabalho a parte de reconhecimento facial feito em Python com a Biblioteca OpenCV.
 
-## Instalação de todos os programs: 
+## Instalação de todos os programas: 
 Todos os procedimentos abaixo devem ser feitos para aqueles que usam sistemas OS. 
 Seguindo todos esses passos, o funcionamento dos algoritmos .py irão funcionar corretamente.
+Para outros sistemas operacionais é necessário pesquisar.
 
 ### Etapa 1:
-Intalle o gerenciador de pacotes pip:
+Instale o gerenciador de pacotes pip:
 $ python -m pip install -U pip
 
 ### Etapa 2: 
