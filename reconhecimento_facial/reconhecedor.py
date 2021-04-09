@@ -1,10 +1,10 @@
 from cv2 import cv2 
 
 detectorFace = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-#reconhecedor = cv2.face.EigenFaceRecognizer_create()
-#reconhecedor.read("classificadorEigen.yml")
-reconhecedor = cv2.face.LBPHFaceRecognizer_create()
-reconhecedor.read("classificadorLBPH.yml")
+reconhecedor = cv2.face.EigenFaceRecognizer_create()
+reconhecedor.read("classificadorEigen.yml")
+#reconhecedor = cv2.face.LBPHFaceRecognizer_create()
+#reconhecedor.read("classificadorLBPH.yml")
 largura, altura = 220, 220
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 camera = cv2.VideoCapture(0)
